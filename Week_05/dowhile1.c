@@ -1,0 +1,5 @@
+do {
+    CODE THAT RUNS WHILE CONDITION IS TRUE
+    OVER AND OVER AGAIN
+    ...
+} while (CONDITION);
