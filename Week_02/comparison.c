@@ -5,7 +5,7 @@ int main() {
 
     printf(" %i > %i => %i\n", i, j, i > j);
     printf(" %i <= %i => %i\n", i, j, i <= j);
-    printf(" %i == %i => %i\n", i, i, i == j);
+    printf(" %i == %i => %i\n", i, j, i == j);
     
     return 0;
 }
