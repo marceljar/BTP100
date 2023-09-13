@@ -1,18 +1,16 @@
 #include <stdio.h>
+https://github.com/marceljar/BTP100
 
 int main() {
     int i, j;
 
     printf("Enter a number: ");
-    scanf("%i",&i); // standard C version
-    //scanf_s("%i",&i); //use this in Visual Studio
-    
-    
+    scanf("%i",&i);
+   
     while((getchar())!='\n'); //clear buffer
 
     printf("Enter another number: ");
-    scanf("%i",&j); // standard C version
-    //scanf_s("%i",&j); // use this in Visual Studio
+    scanf("%i",&j); 
     
     while((getchar())!='\n'); //clear buffer
 
