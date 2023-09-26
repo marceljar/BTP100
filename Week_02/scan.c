@@ -1,5 +1,5 @@
 #include <stdio.h>
-https://github.com/marceljar/BTP100
+#pragma warning(disable:4996)//allows standard scanf
 
 int main() {
     int i, j;
