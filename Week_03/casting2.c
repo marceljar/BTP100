@@ -1,13 +1,13 @@
  #include <stdio.h>
- 
+ #pragma warning(disable:4996)//allows standard scanf
+
  int main()
  {
     int i;
     float f;
 
     printf("Enter a float? ");
-    scanf("%f", &f);// standard C version
-    //scanf_s("%f", &f);// Visual Studio
+    scanf("%f", &f);
     
     
     i = (int) f;
