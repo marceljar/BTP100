@@ -1,4 +1,5 @@
  #include <stdio.h>
+#pragma warning(disable:4996)//allows standard scanf
  
  int main()
  {
@@ -6,8 +7,7 @@
     float hours;
 
     printf("How many minutes? ");
-    scanf("%d", &minutes); // standard C version
-    //scanf_s("%d", &minutes); //use this in Visual Studio
+    scanf("%d", &minutes);
     
     hours = (float) minutes / 60;
     printf("= %.2f hours\n", hours); 
