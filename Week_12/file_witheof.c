@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #define SIZE 16
 
 struct patient {
